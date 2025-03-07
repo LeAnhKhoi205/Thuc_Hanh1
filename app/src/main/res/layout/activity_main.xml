@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Activity_main">
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginBottom="20dp"
+        android:text="THỰC HÀNH 01"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="15dp"
+        android:hint=" Họ và tên"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/khung"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Tuổi"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:background="@drawable/khung"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/khung"
+        android:text="Kiểm tra" />
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_marginTop="10dp" />
+
+    <FrameLayout
+        android:layout_width="238dp"
+        android:layout_height="68dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:background="#3A5D3A3A" />
+
+    <FrameLayout
+        android:layout_width="124dp"
+        android:layout_height="68dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:background="#3A5D3A3A" />
+
+    <FrameLayout
+        android:layout_width="238dp"
+        android:layout_height="55dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:background="#385D3A3A" />
+
+    <FrameLayout
+        android:layout_width="124dp"
+        android:layout_height="55dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="#3A5D3A3A" />
+
+</GridLayout>
